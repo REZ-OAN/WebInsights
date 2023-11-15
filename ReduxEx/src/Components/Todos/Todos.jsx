@@ -3,6 +3,8 @@ import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {failureAction, requestAction, successAction} from "../../services/Actions/todosActions";
 import './Todos.css';
+
+// we can create this function out of this file 
 const getTodos = async (dispatch)=>{
     try{
         dispatch(requestAction());
