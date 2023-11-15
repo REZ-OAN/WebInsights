@@ -4,3 +4,6 @@
 export const INCREMENT = "increment";
 export const DECREMENT = "decrement";
 export const RESET = "reset";
+export const GET_TODOS_REQUEST = "request";
+export const GET_TODOS_SUCCESS = "success";
+export const GET_TODOS_FAILURE = "failed";
